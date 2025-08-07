@@ -132,7 +132,7 @@ const Home = () => {
               viewport={{ once: true, amount: 0.3 }}
             >
               <span className="text-sm sm:text-base font-semibold">
-                Check Beach Camp Package & Rates
+                Check Sri Lanka Camp Package & Rates
               </span>
             </motion.div>
           </div>
@@ -179,7 +179,7 @@ const Home = () => {
             viewport={{ once: true, amount: 0.3 }}
           >
             <span className="text-sm sm:text-base font-semibold">
-              Check Beach Camp Package & Rates
+              Check Morocco Camp Package & Rates
             </span>
           </motion.div>
         </div>

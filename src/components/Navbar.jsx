@@ -154,7 +154,7 @@ const Navbar = () => {
                   <div className="w-2/3 relative overflow-hidden">
                     <div
                       className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
-                      style={{ backgroundImage: "url('/I9.JPG')" }}
+                      style={{ backgroundImage: "url('/I9.jpg')" }}
                     ></div>
 
                     <div className="relative z-10 p-6">
