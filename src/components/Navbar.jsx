@@ -18,7 +18,7 @@ const Navbar = () => {
     {
       id: 'morocco',
       name: 'Surf Camps Morocco',
-      image: '/blogs/blog12.jpg',
+      image: '/blogs/blog-12.jpg',
       link: '/morocco'
     }
   ]

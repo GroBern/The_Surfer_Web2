@@ -9,7 +9,7 @@ const SurfCampCard = ({ pic, topic, body1, body2, link, index }) => {
     <div
       className={`${index === 0 || index === 1 ? 'relative bg-cover bg-center h-[360px] flex items-end justify-center shadow-lg cursor-pointer' : 'relative bg-cover bg-center h-[420px] flex items-end justify-center shadow-lg cursor-pointer'}`}
       style={{
-        backgroundImage: `url(/${pic})`,
+        backgroundImage: `url(${pic})`,
       }}
       onClick={handleCardClick}
     >

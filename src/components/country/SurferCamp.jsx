@@ -90,7 +90,7 @@ const BeachCamp = () => {
                   whileHover={{ scale: 1.05, y: -5 }}
                 >
                   <img
-                    src={`/${slide.image}`}
+                    src={`${slide.image}`}
                     alt={slide.alt}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />

@@ -43,7 +43,7 @@ const ActivityCard = ({ pic, title }) => {
     <motion.div
       className="relative bg-cover bg-center h-[400px] flex items-end justify-center shadow-lg transition-transform duration-300 hover:scale-105 cursor-pointer"
       style={{
-        backgroundImage: `url(/${pic})`,
+        backgroundImage: `url(${pic})`,
       }}
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}

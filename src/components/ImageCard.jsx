@@ -13,7 +13,7 @@ const ImageCard = ({ image, title, subtitle, link, index }) => (
     <div 
       className="aspect-[4/6] bg-cover bg-center transform transition-transform duration-700 group-hover:scale-110"
       style={{
-        backgroundImage: `url(/${image})`,
+        backgroundImage: `url(${image})`,
       }}
     >
       <a href={link}>
