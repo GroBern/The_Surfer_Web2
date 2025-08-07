@@ -122,16 +122,12 @@ const Activities = () => {
                 <h2 className="text-2xl md:text-3xl font-bold text-neutral-600 mb-6">
                     Book your spot now
                 </h2>
-                <button
-                    onClick={() =>
-                        window.location.replace(
-                            "https://main.d7z80586kqd0r.amplifyapp.com/"
-                        )
-                    }
+                <a
+                    href="https://main.d7z80586kqd0r.amplifyapp.com/" target="_blank"
                     className="bg-[#0a67b3] hover:bg-[#095a99] text-white font-semibold px-6 py-3 rounded-full shadow-md transition duration-300"
                 >
                     Booking
-                </button>
+                </a>
             </div>
 
             <Footer />

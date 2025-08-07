@@ -12,7 +12,7 @@ const Navbar = () => {
     {
       id: 'srilanka',
       name: 'Surf Camps Sri Lanka',
-      image: 'beach_camp/package_2.jpg',
+      image: '/beach_camp/package_2.jpg',
       link: '/srilanka'
     },
     {
@@ -59,7 +59,7 @@ const Navbar = () => {
       <div className='container mx-auto flex justify-between items-center py-3 sm:py-4 px-3 sm:px-6 md:px-8 lg:px-16'>
         <a href='/'>
           <img
-            src="logo.png"
+            src="/logo.png"
             alt="The Surfer Logo"
             className={`h-8 sm:h-10 md:h-12 w-auto transition-all duration-300 ${isScrolled ? 'brightness-100' : 'brightness-100'
               }`}

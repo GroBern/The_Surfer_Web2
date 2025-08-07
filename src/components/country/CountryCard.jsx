@@ -45,11 +45,11 @@ const ImageCard = ({ image, title, subtitle, index }) => (
 const CountryCard = () => {
   const destinations = [
     {
-      image: "srilanka.jpg",
+      image: "/srilanka.jpg",
       title: "Sri Lanka",
     },
     {
-      image: "morocco.jpg", 
+      image: "/morocco.jpg", 
       title: "Morocco",
     }
   ];

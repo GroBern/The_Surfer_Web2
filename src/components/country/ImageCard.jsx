@@ -6,7 +6,7 @@ import Difference from "./Difference";
 const ImageCard = () => {
   const cards = {
       card1: {
-        pic: "surfcard1.jpg",
+        pic: "/surfcard1.jpg",
         topic: "The Surfer Beach Surf Camp",
         body1:
           "Join us at the ultimate destination for surf enthusiasts. Experience the thrill of riding the waves and enjoy the serene beauty of the ocean.",
@@ -14,7 +14,7 @@ const ImageCard = () => {
       },
   
       card2: {
-        pic: "surfcard2.jpg",
+        pic: "/surfcard2.jpg",
         topic: "TS2 Surf Camp",
         body1:
           "Feel the magic of surfing as the sun sets over the horizon. Our guided sunset sessions are a perfect way to end your beach day.",
@@ -22,7 +22,7 @@ const ImageCard = () => {
       },
   
       card3: {
-        pic: "surfcard3.jpg",
+        pic: "/surfcard3.jpg",
         topic: "Coming Soon: The Wave Surf Camp",
         body1:
           "Our other Sri Lankan surf camp is coming online soon. Stay tuned!",
